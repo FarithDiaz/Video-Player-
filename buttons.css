@@ -1,0 +1,29 @@
+.button {
+    inline-size: 60px;
+    block-size: 60px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(.9);
+}
+
+#play {
+    background-image: url(./play-svgrepo-com.svg);
+}
+
+#pause{
+    background-image: url(./video-pause-button-svgrepo-com.svg);
+}
+
+#backward{
+    background-image:url(./backward-svgrepo-com.svg) ;
+}
+
+#forward{
+    background-image: url(./fast-forward-svgrepo-com.svg);
+}
